@@ -83,6 +83,6 @@ function animatePress(buttonColor) {
 
 
 function playSound(name) {
-    let sound = new Audio(`/audio/${name}.mp3`);
+    let sound = new Audio(`audio/${name}.mp3`);
     sound.play();
 }
